@@ -17,7 +17,7 @@ class WebVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        loadURL(urlStr: "https://translate.google.cn")
+        loadURL(urlStr: "https://translate.google.com")
         
     }
     

@@ -21,7 +21,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         
-        statusItem.image = NSImage.init(named: "logo_menu")
         let btn = statusItem.button
         btn?.image = NSImage.init(named: "logo_menu")
         
